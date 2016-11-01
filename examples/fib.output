@@ -1,0 +1,50 @@
+Value of n = 0
+Pure python 0.49 usec/pass
+Value of n = 0
+Ctypes python 0.50 usec/pass
+
+Value of n = 1
+Pure python 0.51 usec/pass
+Value of n = 1
+Ctypes python 0.50 usec/pass
+
+Value of n = 2
+Pure python 0.92 usec/pass
+Value of n = 2
+Ctypes python 0.52 usec/pass
+
+Value of n = 3
+Pure python 1.34 usec/pass
+Value of n = 3
+Ctypes python 0.53 usec/pass
+
+Value of n = 4
+Pure python 2.07 usec/pass
+Value of n = 4
+Ctypes python 0.55 usec/pass
+
+Value of n = 5
+Pure python 3.23 usec/pass
+Value of n = 5
+Ctypes python 0.58 usec/pass
+
+Value of n = 6
+Pure python 5.20 usec/pass
+Value of n = 6
+Ctypes python 0.64 usec/pass
+
+Value of n = 7
+Pure python 8.64 usec/pass
+Value of n = 7
+Ctypes python 0.72 usec/pass
+
+Value of n = 8
+Pure python 13.95 usec/pass
+Value of n = 8
+Ctypes python 0.84 usec/pass
+
+Value of n = 9
+Pure python 26.26 usec/pass
+Value of n = 9
+Ctypes python 1.03 usec/pass
+
