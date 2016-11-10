@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 import timeit
 
-def wrapper(func, *args,**kwargs):
-    def wrapped():
-        return func(*args,**kwargs)
-    return wrapped
-
 
 def fib(n):
     if n < 2:
@@ -16,10 +11,12 @@ def fib(n):
 
 def main():
     i = 5 
-    wrapped = wrapper(fib,i)
-    t = timeit.Timer(wrapped,number=10000)
-    print ('Value of n = %d\nPure python %.2f usec/pass' % (i,t.timeit()))
+    t = timeit.Timer(setup = 'from __main__ import fib', stmt = 'fib(5)')
+    print ('Value of n = %.d\nPure python %.2f usec/pass' % (i,t.timeit(number=100000)))
 
+    outputs = t.repeat(number = 1000000, repeat = 3)
+    for time_value in outputs:
+        print ('Value of n = %.d\nPure python %.2f usec/pass' % (i,time_value))
 
 
 if __name__ == "__main__":
