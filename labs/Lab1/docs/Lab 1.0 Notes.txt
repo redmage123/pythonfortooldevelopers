@@ -1,0 +1,27 @@
+﻿Python for Tool Developers
+Lab 1
+11/11/2016
+
+Lab 1.  Basic Python
+       
+      Exercise 1.  You will be given a file called AlBBsalaries2003.formatted.csv.  Please do the following:
+
+1.  Import the 'csv' module from the Python standard library
+2.  Read the file using methods from the imported csv module.
+2.  Create a dictionary from the data that contains the following key/value pair.
+      Key = the Team name
+      Value = Aggregated salary value
+3.  Allow the user of the program to type in a team name and output the aggregated value.
+4.  How can we re-factor our code to make it,
+      A.  More idiomatic?
+      B. Shorter? 
+      C.  Faster?
+
+Exercise 2.  You will be given a file called Eur.pop.XL.csv
+1.  Using the file as your data source, create a dictionary that contains the following key/value pair
+      Key = Country Name
+      Value = Change in population from first year to last year. 
+2.   Allow the user to query the data.  Inputting the country name will return it's change in population.
+3.  As with the first exercise, Consider how we can re-factor our code to make it better.  
+
+
