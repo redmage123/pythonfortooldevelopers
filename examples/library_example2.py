@@ -15,7 +15,7 @@ except jnettool.tools.elements.MissingVar:
     logging.exception('No routing table found')
     ne.cleanup('rollback')
 else:
-    num_routes-routing_table.getSize()
+    num_routes = routing_table.getSize()
     for RToffset in range(num_routes) :
         route = routing_table.getRouteByIndex(RToffset)
         name = route.getName()
