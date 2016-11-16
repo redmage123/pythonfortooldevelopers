@@ -12,7 +12,7 @@ The collections library in Python contains a number of very useful data structur
 3.  Create a data structure that contains the following:  {key = CAMIS record, value = Number of violations}
 3.  Create methods that do the following:
       A.  Allow the user to see all of the CAMIS records for a given restaurant. 
-      B.  Tell the user the number of entries for a given CAMIS number.  
+      B.  Tell the user the number of violations for a given CAMIS number.  
 
 
 
