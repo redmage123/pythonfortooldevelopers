@@ -1,0 +1,19 @@
+﻿Python for Tool Developers
+Lab 7
+11/16/2016
+
+Lab 7.  Using the collections library
+       
+The collections library in Python contains a number of very useful data structures that can be applied to a programming problem.  For this lab, there will be a data source entitled DOHMH_New_York_City_Restaurant_Inspection_Results_sample.csv.  
+
+1.  Read the data from the source.
+2.  Create a data structure that looks like this:
+{ OrderedDict{ Key = “Restaurant Name” Value = DefaultDict{“Key = CAMIS Number: Value = [Named Tuple of CAMIS records]}}
+3.  Create a data structure that contains the following:  {key = CAMIS record, value = Number of violations}
+3.  Create methods that do the following:
+      A.  Allow the user to see all of the CAMIS records for a given restaurant. 
+      B.  Tell the user the number of entries for a given CAMIS number.  
+
+
+
+
